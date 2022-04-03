@@ -89,7 +89,7 @@ function App() {
                 }}
               />
               <TextField
-                label="Time Accrued (seconds)"
+                label="Time Accrued"
                 value={time}
                 onChange={(e) => {
                   setTime(e.target.value);

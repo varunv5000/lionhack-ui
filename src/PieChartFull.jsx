@@ -47,7 +47,7 @@ export default function PieChartFull({ data, title, tokenArr, timeElapsed }) {
             <div>
               <p> {data[hovered].title} </p>{" "}
               <p> {"Tokens: " + tokenArr[hovered]} </p>{" "}
-              {timeElapsed ? <p>{"Time Elapsed: " + data[hovered].value/tokenArr[hovered] }</p> : ""}{" "}
+              {timeElapsed ? <p>{"Time Accrued: " + data[hovered].value/tokenArr[hovered] }</p> : ""}{" "}
             </div>
           ) : null
         }

@@ -52,7 +52,7 @@ function App() {
       <header className="App-header">
         <div className="charts">
           <PieChartFull data={data1} title="Normal Voting" tokenArr={tokenArr}/>
-          <PieChartFull data={data2} title="Time-Elapsed Voting" tokenArr={tokenArr} timeElapsed={true} />
+          <PieChartFull data={data2} title="Time-Accrued Voting" tokenArr={tokenArr} timeElapsed={true} />
         </div>
         <div className="Box">
           <Box
@@ -69,7 +69,7 @@ function App() {
               onChange={(e) =>{
                 setTokens(e.target.value);
               }}/>
-              <TextField label="Time Elapsed (seconds)"
+              <TextField label="Time Accrued (seconds)"
               value={time}
               onChange={(e) =>{
                 setTime(e.target.value)

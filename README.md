@@ -1,4 +1,7 @@
-# Create React App
+# Time-Accrued Voting
+This is the UI that displays how using accrued-time to calculate voting power compares to traditional voting. Check out the devpost submission here: https://devpost.com/software/time-accrued-voting
+
+## Create React App
 
 This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
 
